@@ -22,11 +22,19 @@ src/
 │   │   └── com/
 │   │       └── example/
 │   │           ├── UserServiceApplication.java
-│   │           ├── controller/          # Controllers to be moved to web/
-│   │           └── web/                 # Target directory for controllers
+│   │           └── controller/
+│   │               ├── AuthController.java
+│   │               ├── UserController.java
+│   │               ├── ProfileController.java
+│   │               ├── PermissionController.java
+│   │               ├── ReportController.java
+│   │               ├── AddressController.java
+│   │               ├── RoleController.java
+│   │               ├── ActivityController.java
+│   │               ├── NotificationController.java
+│   │               └── SettingsController.java
 │   └── resources/
 │       └── application.properties
-└── test/
 ```
 
 ## Technology Stack
